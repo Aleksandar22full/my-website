@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Logo from "./Logo";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -10,8 +10,10 @@ const Navbar = () => {
             <Logo />
           </Link>
           <div className=" h-full mx-auto">
-            <ul className="flex mt-5 p-2 gap-6 ">
-              <li className="cursor-pointer  hover:text-sky-700">About me</li>
+            <ul className="flex mt-5 p-3 gap-6 ">
+              <li className="cursor-pointer  hover:text-sky-700">
+                <Link href="#about">About me</Link>
+              </li>
               <li className="cursor-pointer hover:text-sky-700">My Projects</li>
               <li className="cursor-pointer hover:text-sky-700">Contact me</li>
             </ul>
