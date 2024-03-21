@@ -6,7 +6,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 const About = () => {
   return (
     <MaxWidthWrapper>
-      <div className="h-screen mt-48 md:mt-96" id="about">
+      <div className="h-56 mt-48 md:mt-96" id="about">
         <div className="ml-12 flex flex-col lg:flex-row lg:justify-center">
           <div className="h-48 w-72 lg:w-2/3 flex flex-col">
             <h1 className="text-3xl underline decoration solid decoration-blue-500 decoration-6">

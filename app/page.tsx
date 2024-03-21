@@ -6,6 +6,7 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { ReactTyped } from "react-typed";
 import ParticlesComponent from "@/components/particles";
+import WhatIDo from "@/components/WhatIDo";
 
 export default function Home() {
   return (
@@ -65,6 +66,7 @@ export default function Home() {
         </div>
       </div>
       <About />
+      <WhatIDo />
     </>
   );
 }
