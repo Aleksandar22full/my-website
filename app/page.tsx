@@ -5,13 +5,14 @@ import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { ReactTyped } from "react-typed";
-import ParticlesComponent from "@/components/particles";
 import WhatIDo from "@/components/WhatIDo";
+import data from "@/lib/data";
+import ProjectItem from "@/components/ProjectItem";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <>
-      <ParticlesComponent id="particles" />
       <MaxWidthWrapper className="mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center">
         <div className="mx auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
           <p className="text-sm font-semibold text-gray-700">
@@ -67,6 +68,19 @@ export default function Home() {
       </div>
       <About />
       <WhatIDo />
+      <div id="projects" className="text-center">
+        <h2 className="text-6xl underline decoration solid decoration-blue-500 decoration-6 p-4">
+          Latest Projects
+        </h2>
+      </div>
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4 justify-center p-4">
+        {data.projects.map((project) => (
+          <div className="p-4">
+            <ProjectItem key={project.slug} project={project} />
+          </div>
+        ))}
+      </div>
+      <Contact />
     </>
   );
 }

@@ -14,8 +14,12 @@ const Navbar = () => {
               <li className="cursor-pointer  hover:text-sky-700">
                 <Link href="#about">About me</Link>
               </li>
-              <li className="cursor-pointer hover:text-sky-700">My Projects</li>
-              <li className="cursor-pointer hover:text-sky-700">Contact me</li>
+              <li className="cursor-pointer hover:text-sky-700">
+                <Link href="#projects">My Projects</Link>
+              </li>
+              <li className="cursor-pointer hover:text-sky-700">
+                <Link href="#contact">Contact Me</Link>
+              </li>
             </ul>
           </div>
         </div>

@@ -16,7 +16,7 @@ const WhatIDo = () => {
               <FaPaintBrush size={32} color="cornflowerBlue" />
             </div>
           </div>
-          <p className="text-3xl solid">Website design & Redesign</p>
+          <p className="text-3xl solid uppercase">Website design & Redesign</p>
         </div>
         <div className="bg-slate-200 p-4 rounded-lg text-center h-72">
           <div className="flex justify-center items-center mb-4">
@@ -24,7 +24,7 @@ const WhatIDo = () => {
               <FaCode size={32} color="cornflowerBlue" />
             </div>
           </div>
-          <p className="text-3xl solid">Website Development</p>
+          <p className="text-3xl solid uppercase">Website Development</p>
         </div>
         <div className="bg-slate-200 p-4 rounded-lg text-center h-72">
           <div className="flex justify-center items-center mb-4">
@@ -32,7 +32,7 @@ const WhatIDo = () => {
               <FaSearch size={32} color="cornflowerBlue" />
             </div>
           </div>
-          <p className="text-3xl solid">SEO & Marketing</p>
+          <p className="text-3xl solid uppercase">SEO & Marketing</p>
         </div>
       </div>
     </div>
