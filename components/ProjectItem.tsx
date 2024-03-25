@@ -1,13 +1,13 @@
-import { Project } from "@/lib/models/ProjectModel";
-import Link from "next/link";
-import React from "react";
-import Image from "next/image";
-import { buttonVariants } from "./ui/button";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { Project } from '@/lib/models/ProjectModel'
+import Link from 'next/link'
+import React from 'react'
+import Image from 'next/image'
+import { buttonVariants } from './ui/button'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 export default function ProjectItem({ project }: { project: Project }) {
   return (
-    <div className="card bg-base-300 shadow-xl mb-4">
+    <div className="card bg-blue-100 shadow-xl mb-4">
       <figure>
         <Link target="_blank" href={project.link}>
           <Image
@@ -27,8 +27,8 @@ export default function ProjectItem({ project }: { project: Project }) {
         <div className="card-actions flex items-center justify-between">
           <Link
             className={buttonVariants({
-              size: "lg",
-              className: "mt-5",
+              size: 'lg',
+              className: 'mt-5',
             })}
             href={project.link}
             target="_blank"
@@ -38,5 +38,5 @@ export default function ProjectItem({ project }: { project: Project }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
