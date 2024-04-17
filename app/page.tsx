@@ -30,10 +30,10 @@ export default function Home() {
           <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
             UI/UX
           </span>{' '}
-          Web developer
+          Web designer
         </h1>
         <p className="mt-8 max-w-prose text-zinc-700 sm:text-lg">
-          Passionate desinger coming from Serbia, to explore further into my
+          Passionate designer coming from Serbia, to explore further into my
           background, scroll down.
         </p>
         <Link

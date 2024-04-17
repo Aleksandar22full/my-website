@@ -7,7 +7,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 
 export default function ProjectItem({ project }: { project: Project }) {
   return (
-    <div className="card bg-blue-100 shadow-xl mb-4">
+    <div className="card bg-gray-200 shadow-xl mb-4">
       <figure>
         <Link target="_blank" href={project.link}>
           <Image
