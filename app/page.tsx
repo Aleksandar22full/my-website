@@ -26,14 +26,14 @@ export default function Home() {
           </p>
         </div>
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-          I am Aleksandar a{' '}
+          I am Aleksandar a <br></br>
           <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
-            full stack
+            UI/UX
           </span>{' '}
-          web developer
+          Web developer
         </h1>
         <p className="mt-8 max-w-prose text-zinc-700 sm:text-lg">
-          Passionate developer coming from Serbia, to explore further into my
+          Passionate desinger coming from Serbia, to explore further into my
           background, scroll down.
         </p>
         <Link
@@ -71,7 +71,7 @@ export default function Home() {
       <WhatIDo />
       <div id="projects" className="text-center">
         <h2 className="text-6xl underline decoration solid decoration-blue-500 decoration-6 p-4">
-          My Projects
+          My Websites & Figma Projects
         </h2>
       </div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4 justify-center p-4">

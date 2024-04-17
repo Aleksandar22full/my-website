@@ -1,7 +1,7 @@
-import React from "react";
-import { buttonVariants } from "@/components/ui/button";
-import Link from "next/link";
-import MaxWidthWrapper from "./MaxWidthWrapper";
+import React from 'react'
+import { buttonVariants } from '@/components/ui/button'
+import Link from 'next/link'
+import MaxWidthWrapper from './MaxWidthWrapper'
 
 const About = () => {
   return (
@@ -13,19 +13,18 @@ const About = () => {
               About me
             </h1>
             <h6 className="mt-4">
-              JavaScript developer specializing in TypeScript and React.{" "}
-              <br></br> I excel in code refinement, UI design and seamless API
-              integration.
-              <br></br>
-              Collaborative team player fostering a learning culture and
-              ensuring project success.
+              I am Aleksandar, a passionate UI/UX designer driven by a deep love
+              for crafting exceptional digital experiences. With a keen eye for
+              detail and a penchant for clean, intuitive design, I specialize in
+              creating interfaces that seamlessly combine aesthetics with user
+              experience.
             </h6>
           </div>
-          <div className="mt-12 ml-4">
+          <div className="mt-14 ml-4">
             <Link
               className={buttonVariants({
-                size: "lg",
-                className: "",
+                size: 'lg',
+                className: '',
               })}
               target="_blank"
               href="Aleksandar Pavlovic CV final.pdf"
@@ -37,7 +36,7 @@ const About = () => {
         </div>
       </div>
     </MaxWidthWrapper>
-  );
-};
+  )
+}
 
-export default About;
+export default About
