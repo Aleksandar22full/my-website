@@ -26,7 +26,7 @@ const data = {
         slug: 'free-gym-project-figma',
         image: '/images/gym.jpg',
         link: 'https://www.figma.com/file/n6n8nfzLLKsXWXQYgnSf1C/GYM-WEBSITE?type=design&mode=design&t=4tAuszpB9LmXyV9r-1',
-        description: 'Figma file for Primera Website',
+        description: 'Figma file for Gym Website',
       },
       {
         name: 'Games Shop Website',
